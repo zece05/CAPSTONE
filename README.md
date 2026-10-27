@@ -29,7 +29,7 @@ flowchart LR
     A["Day-ahead weather forecast<br/>ECMWF via Open-Meteo"] --> B["Wind correction<br/>machine learning"]
     B --> C["Power curve<br/>wind to power"]
     C --> D["Hourly production forecast<br/>= nomination"]
-    E["Wind farm measurements<br/>SCADA 2024-2026"] -. train and check .-> B
+    E["Wind farm measurements<br/>SCADA"] -. train and check .-> B
     E -. build .-> C
 ```
 1. **Learn from history:** compare two years of archived forecasts with what the turbines actually measured and produced.
