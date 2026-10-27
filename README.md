@@ -33,10 +33,9 @@ pip install -r requirements.txt
 ## Repository structure
 ```
 ├── notebooks/
-├── data/                   # mostly not tracked by git
-│   ├── 2024/ 2025/ 2026/   # raw SCADA from Zenodo
-│   ├── processed/          # Parquet files (notebook 01)
-│   └── nwp/                # NWP forecasts (notebook 02)
+├── data/     
+│   ├── SCADA/
+│   └── nwp/  
 ├── requirements.txt
 └── README.md
 ```
