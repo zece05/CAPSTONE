@@ -18,8 +18,8 @@ Turn the day-ahead weather forecast into a more accurate hourly power forecast f
 ## Data
 | Source | Content | Period | Output |
 |---|---|---|---|
-| [Hill of Towie open dataset v2.1.0](https://doi.org/10.5281/zenodo.22662930) (CC BY 4.0) | 10-min SCADA, 21 Siemens SWT-2.3-VS-82 turbines (48.3 MW), Scotland | Apr 2024 – Apr 2026 | `data/processed/*.parquet` (notebook 01) |
-| [Open-Meteo Single Runs API](https://open-meteo.com/en/docs/single-runs-api) (CC BY 4.0) | ECMWF IFS HRES 9 km, runs 00/12 UTC, lead 0–48 h | Apr 2024 – Apr 2026 | `data/nwp/*.csv` (notebook 02) |
+| [Hill of Towie open dataset v2.1.0](https://doi.org/10.5281/zenodo.22662930) (CC BY 4.0) | 10-min SCADA, 21 Siemens SWT-2.3-VS-82 turbines (48.3 MW), Scotland | Apr 2024 – Apr 2026 | `data/processed/*.parquet` (1st notebook) |
+| [Open-Meteo Single Runs API](https://open-meteo.com/en/docs/single-runs-api) (CC BY 4.0) | ECMWF IFS HRES 9 km, runs 00/12 UTC, lead 0–48 h | Apr 2024 – Apr 2026 | `data/nwp/*.csv` (2nd notebook) |
 
 Raw SCADA data is not stored in this repository. Download `2024.zip`, `2025.zip`, `2026.zip` and `Hill_of_Towie_turbine_metadata.csv` from [Zenodo](https://zenodo.org/records/22662930) and unzip each year into `data/2024/`, `data/2025/`, `data/2026/`.
 
