@@ -1,3 +1,4 @@
+## DSB Capstone
 # Day-ahead wind power forecasting for wind farm nomination
 
 Capstone project: a more accurate day-ahead production forecast for a wind farm, so that its market nomination is closer to real production and the imbalance cost is lower.
