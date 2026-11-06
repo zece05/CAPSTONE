@@ -71,6 +71,12 @@ A 48 MW wind farm produces about 127,000 MWh per year. A typical day-ahead forec
   
 Raw SCADA data is not stored in this repository. Download `2024.zip`, `2025.zip`, `2026.zip` and `Hill_of_Towie_turbine_metadata.csv` from [Zenodo](https://zenodo.org/records/22662930) and unzip each year into `data/2024/`, `data/2025/`, `data/2026/`.
 
+### Study location and the NWP grid
+
+![Wind turbines and the ECMWF IFS HRES 9 km grid](data/ifs_grid_map_57.506N_3.068W.png)
+
+*Hill of Towie wind turbines (blue triangles), the ECMWF IFS HRES grid points (O1280, ~9 km) and the area in which each grid point is the nearest one. The orange star is the study location (57.505° N, 3.077° W) and the shaded cell is the grid point used for the NWP forecasts. Map data © OpenStreetMap contributors.*
+
 ## How to run
 ```bash
 pip install -r requirements.txt
