@@ -55,7 +55,7 @@ A 48 MW wind farm produces about 127,000 MWh per year. A typical day-ahead forec
 ## Status
 - [x] SCADA preprocessing (notebook 01)
 - [x] Download of day-ahead NWP forecasts (notebook 02)
-- [ ] Hourly aggregation, filters, empirical power curve
+- [x] Hourly aggregation, filters, empirical power curve
 - [ ] Wind correction and power forecast models
 - [ ] Evaluation: forecast error, imbalance energy and cost
 
@@ -87,9 +87,16 @@ pip install -r requirements.txt
 ## Repository structure
 ```
 ├── notebooks/
+│   ├── 1_analysis_SCADA.ipynb 
+│   ├── 2_download_meteo.ipynb
+│   ├── 3_df4ml.ipynb
+│   ├── 4_EDA_of_df4mlparquet.ipynb
+│   └── ifs_grid_map.py 
 ├── data/     
-│   ├── SCADA/
-│   └── nwp/  
+│   ├── SCADA/ 
+│   ├── ds4ml/
+│   ├── nwp/  
+│   └── ifs_grid_map_57.506N_3.068W.png  
 ├── requirements.txt
 └── README.md
 ```
